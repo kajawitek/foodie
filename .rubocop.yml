@@ -29,6 +29,7 @@ Metrics/BlockLength:
 Layout/LineLength:
   Exclude:
     - 'bin/*'
+    - 'config/initializers/simple_form.rb'
 
 Style/FetchEnvVar:
   Exclude:

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root "recipes#index"
+  root 'recipes#index'
 
-  resources :recipes, only: [:index, :show]
+  resources :recipes, only: %i[index show new create edit update]
 end
